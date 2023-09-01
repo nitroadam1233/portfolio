@@ -60,7 +60,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Here is a list of projects that I've been working on. I developed a React-Dashboard that has different dependencies like Formik and Yup which are used for form validation. I have a couple of other projects that taught me about APIs and promises in Javascript. I learned a lot from all these projects.</p>
+                <p>Here is a list of projects that I've been working on. I developed a React-Dashboard that has different dependencies like Formik and Yup which are used for form validation. I have a couple of other projects that taught me about APIs and promises in Javascript. I learned a lot from all these projects. Click on any of the images and it takes you straight to the webpage. P.S. Not finished with Snap App yet.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
